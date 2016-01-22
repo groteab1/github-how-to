@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Github How To</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>How to put a website online using Github</h1>
+        <h2>Steps</h2>
+        <ol>
+            <li>Open Gitbash</li>
+                <p>Go to the folder that has the website you want to put online. Once you are there right click inside of the folder and hit Gitbash.</p>
+                <li>git init</li>
+                    <p>On the first line, type git init. Then hit enter.</p>
+                <li>git checkout -b gh-pages</li>
+                    <p>On the next line, type git checkout -b gh-pages. Then hit enter again.</p>
+                <li>git status</li>
+                    <p>When you type git status, you will see that all the files in the folder you clicked appear in red. The goal is to get them to appear in green.</p>
+                    <p>Typing git status is a great thing to do if you get suck.</p>
+                    <li>git add</li>
+                        <p>On the next line you will type git add and then the file name you want to add. For example you could say git add index.html. If you want to add all of the files in red, then you could say git add . which will add all of the files in your folder.</p>
+                    <li>git status</li>
+                        <p>Type git status one more time after you have added all of the files you want to add to make sure all the files that you want to show up on your final website online are in green.</p>
+                    <li>git commit -m ""</li>
+                        <p>Every time you add or do something to your website, you want to update the website that you put online. This is done with the commmand git commit -m "". In the quotations you write a brief description of what you did to your website. Your first time putting the website online in the quotes you could put something like "Created index.html and styles.css.</p>
+            <li>git status</li>
+                <p>Hit git status, and make sure that is says nothing to commit, working directory clean.</p>
+            <li>Github Repo</li>
+                <p>Go online to github.com, sign in, and go to the top right hand corner and hit the plus sign. Then click new repository. Then, under Repository Name, title your website.Then scroll to the bottom and hit create repository.</p>
+            <li>Paste</li>
+                <p>Go to the second section of the table once, and copy and paste the first line of that text and put it into the git bash window you opened at the beginning. </p>
+                <p>In order to paste something on git bash you have to hit the insert key right next to the backspace key.</p>
+            <li>git push -u origin gh-pages</li>
+                <p>Next, you can either type git push -u origin gh-pages or you can copy and paste the second line from the second section of the table and change master to gh-pages.</p>
+            <li>Refresh, and New Website</li>
+                <p>Refresh the github page, and then open a new tape. To go to your new website online, you would type your username.github.io/repository name. For example, one of my websites would be groteab1.github.io/superhero.
+        </ol>
+</body>
+</html>
